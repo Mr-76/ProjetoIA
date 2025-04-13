@@ -174,7 +174,7 @@ def genetic_algorithm(agents):
 # Parâmetros
 n_agents = 20
 time_limit = 5
-generation_limit = 10
+generation_limit = 3 
 best_path = None
 generation_count = 0
 agents = [Agente(*entrada) for _ in range(n_agents)]
